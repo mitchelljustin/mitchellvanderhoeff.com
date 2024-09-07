@@ -1,0 +1,16 @@
+baseURL = 'https://mitchellvanderhoeff.com/'
+languageCode = 'en-us'
+title = 'Mitchell van der Hoeff'
+theme = 'coder'
+
+[params]
+colorScheme = "dark"
+
+
+[markup.highlight]
+style = "github-dark"
+
+[[menu.main]]
+  name = "Posts"
+  weight = 1
+  url  = "posts/"
